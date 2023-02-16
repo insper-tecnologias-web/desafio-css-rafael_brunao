@@ -29,7 +29,149 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.card {
+box-shadow: 0 3px 8px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.25);
+margin-top: 1%;
+margin-bottom: 0.5%;
+font-family: 'Permanent Marker', cursive;
+margin-left: 0.7%;
+}
+
+.card-content {
+padding: 3%;
+color: #4c4c4c;
+width: 240px;
+height: 100px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.card-title {
+  padding: 3%;
+  font-weight: bold;
+}
+
+.card-container {
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.appbar {
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  background-color: #f7d736;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+  height: 75%;
+  padding: 0.2%;
+  float: left;
+}
+
+.subtitle {
+  float: left;
+  margin-top: 1%;
+  margin-left: 0.7%;
+  padding-bottom: 1%;
+}
+
+.form-card {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  height: 105px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 4px 10px 6px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.25);
+  margin-top: 1%;
+}
+
+.form-card-title {
+  font-size: 100%;
+  padding-bottom: 2%;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  margin-bottom: 3px;
+}
+
+.autoresize {
+  resize: none;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  margin-bottom: 3px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1%;
+}
+
+.card-color-1 {
+  background-color: #ead3a7;
+
+}
+.card-color-2 {
+  background-color: #9de0f5;
+}
+.card-color-3 {
+  background-color: #ef89ba;
+}
+.card-color-4 {
+  background-color: #fae890;
+}
+.card-color-5 {
+  background-color: #abe9c1;
+}
+
+.card-rotation-1 {
+  transform:rotate(0deg);
+}
+.card-rotation-2 {
+  transform:rotate(1deg);
+}
+.card-rotation-3 {
+  transform:rotate(2deg);
+}
+.card-rotation-4 {
+  transform:rotate(3deg);
+}
+.card-rotation-5 {
+  transform:rotate(4deg);
+}
+.card-rotation-6 {
+  transform:rotate(5deg);
+}
+.card-rotation-7 {
+  transform:rotate(-1deg);
+}
+.card-rotation-8 {
+  transform:rotate(-2deg);
+}
+.card-rotation-9 {
+  transform:rotate(-3deg);
+}
+.card-rotation-10 {
+  transform:rotate(-4deg);
+}
+.card-rotation-11 {
+  transform:rotate(-5deg);
+}
+
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -77,4 +219,4 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
